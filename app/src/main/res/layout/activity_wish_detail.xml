@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_wish_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dee.mywishlist.wishDetailActivity"
+    android:background="#778899">
+    <TextView
+        android:id="@+id/detailsTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text="My Title"
+        android:textAlignment="center"
+        android:textColor="#2F4F4F"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/detailsTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textColor="#2F4F4F"
+        android:text="My Wish...."
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/detailsDateText"
+        android:textStyle="italic"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/detailsTextView"
+        android:text="Date Here..."
+        android:layout_alignParentRight="true"
+        android:textSize="11sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_below="@+id/detailsDateText"
+        android:layout_centerHorizontal="true"
+        android:text="Delete"
+        android:layout_marginTop="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#708090"/>
+
+</RelativeLayout>
